@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-habtic",
+  "version": "0.1.0-beta",
+  "description": "@habtic reusable lint config",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "scripts": {
+    "prerelease": "yarn publish --prerelease --tag=next",
+    "next": "yarn prerelease"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.15.0",
+    "@typescript-eslint/parser": "4.15.0",
+    "eslint": "7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "devDependencies": {
+    "typescript": "4.1.5"
+  },
+  "repository": "https://github.com/metahabits/eslint-config-habtic.git",
+  "author": {
+    "name": "Habtic B.V",
+    "email": "habtic@habtic.com",
+    "url": "https://habtic.com/"
+  },
+  "license": "MIT",
+  "private": false
+}
